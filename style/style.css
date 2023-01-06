@@ -2,6 +2,7 @@
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
+
 .uni-btn {
     height: 64px;
     background: #FF5959;
@@ -61,7 +62,8 @@ header {
 
 .tkbtn-2 {
     background-color: #FAFAFA;
-    color: #707070;;
+    color: #707070;
+    ;
     border: 2px solid transparent;
     /* padding: 35px 32px; */
     transition-duration: 0.4s;
@@ -90,15 +92,16 @@ header {
     margin-left: -20px;
 }
 
-.tkbtn ul {
-    
-}
+.tkbtn ul {}
+
 .donate-text {
     margin-top: 30px;
 }
+
 .donate-btn {
     margin-top: 30px;
 }
+
 .donate-text {
     border: none;
     border-bottom: 1px solid #a34747;
@@ -113,34 +116,95 @@ header {
     outline: none;
     color: #FF5959;
 }
+
 /* donate Today */
-.Our-donate{
-    
-    margin-bottom: 100px;
+.Our-donate {
+
+    margin-bottom: 0px;
 }
-.our-donate-tx{
+
+.our-donate-tx {
     margin-bottom: 100px;
     text-align: center;
 }
-.our-donate-tx-para{
+
+.our-donate-tx-para {
     margin-top: 40px;
 }
-.box-con{
+
+.box-con {
     display: flex;
     justify-content: space-between;
     padding: 0px 400px;
-    gap: 30px;
+    gap: 18px;
 }
-.box{
-    background: #FFFFFF;
+
+.box-1 {
+    background: rgba(79, 157, 166, 0.1);
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 50px 25px;
     /* justify-content: space-between; */
 }
-.box-icon{
-margin-bottom: 15px;
+
+.box-2 {
+    background: rgba(255, 89, 89, 0.1);
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 50px 25px;
+    /* justify-content: space-between; */
 }
-.box-title{
+
+.box-3 {
+    background: #FFF4D6;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 50px 25px;
+    /* justify-content: space-between; */
+}
+
+.box-icon {
     margin-bottom: 15px;
+}
+
+.box-title {
+    margin-bottom: 15px;
+}
+
+/* info-img */
+
+.info-1 {
+    display: flex;
+    
+
+}
+
+.info {
+    padding: 150px 300px;
+}
+
+.info-img {
+    width: 825px;
+    height: 550px;
+}
+
+.info-des1 {
+    padding: 100px;
+}
+
+.info-des1 h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.info-des1 p {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.p-gap {
+    margin-top: 10px;
+}
+.info-gap{
+    margin-top: 120px;
 }
