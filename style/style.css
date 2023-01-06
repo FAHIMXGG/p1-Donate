@@ -63,7 +63,7 @@ header {
 .tkbtn-2 {
     background-color: #FAFAFA;
     color: #707070;
-    ;
+
     border: 2px solid transparent;
     /* padding: 35px 32px; */
     transition-duration: 0.4s;
@@ -76,8 +76,8 @@ header {
 }
 
 .tkbtn-2:hover {
-    /* background-color: #4CAF50;  */
-    /* color: white; */
+    background-color: #ff59591d;
+    color: #FF5959;
 }
 
 .tkbtn-2:focus {
@@ -92,7 +92,7 @@ header {
     margin-left: -20px;
 }
 
-.tkbtn ul {}
+/* .tkbtn ul {} */
 
 .donate-text {
     margin-top: 30px;
@@ -175,7 +175,7 @@ header {
 
 .info-1 {
     display: flex;
-    
+
 
 }
 
@@ -205,6 +205,87 @@ header {
 .p-gap {
     margin-top: 10px;
 }
-.info-gap{
+
+.info-gap {
     margin-top: 120px;
+}
+
+/* Get my update */
+
+.get-my-upadate {
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0px 300px;
+}
+
+.update {
+    margin-bottom: 75px;
+}
+
+.update h1 {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.update p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+}
+
+.contact {
+    /* display: flex; */
+    /* margin-top: 130px; */
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 100px;
+    margin-bottom: 100px;
+}
+
+.contact ul {
+    display: flex;
+    justify-content: center;
+}
+
+.contact li {
+    list-style: none;
+}
+
+.email {
+    background-color: #FAFAFA;
+    color: #D9D9D9;
+
+    border: 2px solid transparent;
+    /* padding: 35px 32px; */
+    transition-duration: 0.4s;
+    width: 275px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.email:focus {
+    outline: none;
+
+}
+
+.email:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.submit {
+    border: none;
+    width: 157px;
+    height: 48px;
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 1%;
+    color: white;
+}
+
+.submit:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
